@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5E301C5E2C762E2100BA6BEF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E301C5D2C762E2100BA6BEF /* main.swift */; };
+		5E368B302C772F3A001D7E71 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368B2F2C772F3A001D7E71 /* Person.swift */; };
+		5E368B322C773104001D7E71 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368B312C773104001D7E71 /* Patient.swift */; };
+		5E368B342C773399001D7E71 /* TriaggeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368B332C773399001D7E71 /* TriaggeQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		5E301C5A2C762E2100BA6BEF /* ConsoleApplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConsoleApplication; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E301C5D2C762E2100BA6BEF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5E368B2F2C772F3A001D7E71 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5E368B312C773104001D7E71 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		5E368B332C773399001D7E71 /* TriaggeQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriaggeQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				5E301C5D2C762E2100BA6BEF /* main.swift */,
+				5E368B2F2C772F3A001D7E71 /* Person.swift */,
+				5E368B312C773104001D7E71 /* Patient.swift */,
+				5E368B332C773399001D7E71 /* TriaggeQueue.swift */,
 			);
 			path = ConsoleApplication;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E368B302C772F3A001D7E71 /* Person.swift in Sources */,
+				5E368B342C773399001D7E71 /* TriaggeQueue.swift in Sources */,
 				5E301C5E2C762E2100BA6BEF /* main.swift in Sources */,
+				5E368B322C773104001D7E71 /* Patient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
