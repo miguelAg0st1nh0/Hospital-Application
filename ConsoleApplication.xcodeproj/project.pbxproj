@@ -11,6 +11,8 @@
 		5E368B302C772F3A001D7E71 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368B2F2C772F3A001D7E71 /* Person.swift */; };
 		5E368B322C773104001D7E71 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368B312C773104001D7E71 /* Patient.swift */; };
 		5E368B342C773399001D7E71 /* TriaggeQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E368B332C773399001D7E71 /* TriaggeQueue.swift */; };
+		5E4C1E832C78982800BD39A0 /* Doctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4C1E822C78982800BD39A0 /* Doctor.swift */; };
+		5E4C1E852C789C0200BD39A0 /* DoctorsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4C1E842C789C0200BD39A0 /* DoctorsDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		5E368B2F2C772F3A001D7E71 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5E368B312C773104001D7E71 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		5E368B332C773399001D7E71 /* TriaggeQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriaggeQueue.swift; sourceTree = "<group>"; };
+		5E4C1E822C78982800BD39A0 /* Doctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doctor.swift; sourceTree = "<group>"; };
+		5E4C1E842C789C0200BD39A0 /* DoctorsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				5E368B2F2C772F3A001D7E71 /* Person.swift */,
 				5E368B312C773104001D7E71 /* Patient.swift */,
 				5E368B332C773399001D7E71 /* TriaggeQueue.swift */,
+				5E4C1E822C78982800BD39A0 /* Doctor.swift */,
+				5E4C1E842C789C0200BD39A0 /* DoctorsDatabase.swift */,
 			);
 			path = ConsoleApplication;
 			sourceTree = "<group>";
@@ -130,9 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E368B302C772F3A001D7E71 /* Person.swift in Sources */,
+				5E4C1E832C78982800BD39A0 /* Doctor.swift in Sources */,
 				5E368B342C773399001D7E71 /* TriaggeQueue.swift in Sources */,
 				5E301C5E2C762E2100BA6BEF /* main.swift in Sources */,
 				5E368B322C773104001D7E71 /* Patient.swift in Sources */,
+				5E4C1E852C789C0200BD39A0 /* DoctorsDatabase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
